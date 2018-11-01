@@ -1,0 +1,30 @@
+{
+    "name": "Marketing",
+    "requirements": [
+    {
+        "name": "Intro To Buiness",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "MKT 101"
+            ]
+        }]
+    },    
+    {
+        "name": "Intro To Buiness",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "MKT 102"
+            ]
+        }]
+    }]
+}

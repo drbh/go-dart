@@ -1,0 +1,30 @@
+{
+    "name": "Art History",
+    "requirements": [
+    {
+        "name": "Intro To Art History",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "ARH 101"
+            ]
+        }]
+    },    
+    {
+        "name": "Intro To Art History",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "ARH 102"
+            ]
+        }]
+    }]
+}

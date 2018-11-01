@@ -1,0 +1,62 @@
+{
+    "name": "CompSci",
+    "requirements": [
+    {
+        "name": "Intro To Buiness",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "CSI 101"
+            ]
+        }]
+    },
+    {
+        "name": "Intro To Buiness",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "CSI 102"
+            ]
+        }]
+    },
+    {
+        "name": "Intro To Buiness",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Second Year Cores",
+            "count": 2,
+            "core": [
+                "CSI 103", "CSI 104", "CSI 105", "CSI 106", "CSI 107"
+            ]
+        }]
+    },
+    {
+        "name": "Intro To Buiness",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "General Study",
+            "count": 1,
+            "core": [
+                "SPA 100", "SPA 200", "SPA 300", "SPA 400", "SPA 500", "SPA 600", "BUS 900",
+                "SPA 700", "SPA 800", "SPA 900", "ELC 100", "ELC 200", "ELC 300", "ELC 400",
+                "ELC 500", "ELC 600", "ELC 700", "ELC 800", "ELC 900", "MAT 100", "MAT 200",
+                "MAT 300", "MAT 400", "MAT 500", "MAT 600", "MAT 700", "MAT 800", "MAT 900",
+                "PSY 100", "PSY 200", "PSY 300", "PSY 400", "PSY 500", "PSY 600", "PSY 700",
+                "PSY 800", "PSY 900", "BUS 100", "BUS 200", "BUS 300", "BUS 400", "BUS 500",
+                "BUS 600", "BUS 700", "BUS 800"
+            ]
+        }]
+    }]
+}

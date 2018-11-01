@@ -1,0 +1,30 @@
+{
+    "name": "ElecEngineering",
+    "requirements": [
+    {
+        "name": "Intro To ElecEngineering",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "ELC 101"
+            ]
+        }]
+    },    
+    {
+        "name": "Intro To ElecEngineering",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "ELC 102"
+            ]
+        }]
+    }]
+}

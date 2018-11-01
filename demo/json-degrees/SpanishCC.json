@@ -1,0 +1,30 @@
+{
+    "name": "SpanishCC",
+    "requirements": [
+    {
+        "name": "Intro To Spanish",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "SPA 101"
+            ]
+        }]
+    },    
+    {
+        "name": "Intro To Spanish",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "SPA 102"
+            ]
+        }]
+    }]
+}

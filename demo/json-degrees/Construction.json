@@ -1,0 +1,30 @@
+{
+    "name": "Construction",
+    "requirements": [
+    {
+        "name": "Intro To Construction",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "CON 101"
+            ]
+        }]
+    },    
+    {
+        "name": "Intro To Construction",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "CON 102"
+            ]
+        }]
+    }]
+}
