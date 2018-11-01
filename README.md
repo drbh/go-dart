@@ -1,7 +1,5 @@
 # Welcome to go-dart
 
-![Prototype UI](https://github.com/drbh/go-dart/blob/master/screenshot.png)
-
 The fastest way to audit students degrees
 
 This is the Golang implementation of 🎯 D.A.R.T (Degree Auditing Real Time)
