@@ -383,5 +383,5 @@ func StartServer() {
 	}
 
 	// Start and run the server
-	router.Run(":3000")
+	router.Run()
 }
