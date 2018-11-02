@@ -2,6 +2,9 @@
 	"ImportPath": "github.com/drbh/go-dart",
 	"GoVersion": "go1.9",
 	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/boltdb/bolt",
