@@ -26,6 +26,11 @@ type UpdateRequest struct {
 	Catyear string `json:"catyr,omitempty"`
 }
 
+type AdHocRequest struct {
+	Act  ActivityLog `json:"activityLog"`
+	Task TaskMap     `json:"taskMap"`
+}
+
 // func EchoLengthServer(ws *websocket.Conn) {
 // 	var msg string
 
@@ -128,8 +133,22 @@ func StartServer() {
 		})
 
 		api.POST("/ad-hoc", func(c *gin.Context) {
+			start := time.Now()
+			var ahreq AdHocRequest
+			var audit *TaskAudit
+
+			c.BindJSON(&ahreq)
+			fmt.Println(ahreq.Act)
+			fmt.Println(ahreq.Task)
+
+			audit, _ = RunAudit(ahreq.Task, ahreq.Act)
+			fmt.Println(audit)
+			timeTrack(start, "Ad Hoc Ran\t\t\t\t")
+
+			// jsond, _ := json.Marshal(*audit)
+
 			c.JSON(http.StatusOK, gin.H{
-				"data": "key",
+				"data": audit,
 			})
 		})
 
