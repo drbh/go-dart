@@ -1,1 +1,1 @@
-web: godart
+web: go-dart
