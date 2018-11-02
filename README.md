@@ -32,7 +32,62 @@ Additionally DART can provide prescriptive student outreach and deep insights in
 
 ## 1. Demo App
 
-Sorry, this is not up and running yet. First, an example API will be available, then a UI app will be deployed.
+The demo api is up and running!
+
+check out `https://go-dart.herokuapp.com/api/`
+
+ui coming soon
+
+Try Me:
+
+```
+curl --request POST \
+  --url https://go-dart.herokuapp.com/api/ad-hoc \
+  --header 'content-type: application/json' \
+  --data '{
+    "activityLog":
+    { 
+        "name": "david",
+        "completed": {
+            "CON 101": true,
+					"CON 102": true
+        }
+	},
+    "taskMap":
+{
+    "name": "Construction",
+    "requirements": [
+    {
+        "name": "Intro To Construction",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "CON 101"
+            ]
+        }]
+    },    
+    {
+        "name": "Intro To Construction",
+        "type": "Education",
+        "group": "Group Core",
+        "satisfiers": [
+        {
+            "uuid": "Introductory Cores",
+            "count": 1,
+            "core": [
+                "CON 102"
+            ]
+        }]
+    }]
+}
+}'
+```
+
+
 
 ## 2. How to install
 
