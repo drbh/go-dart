@@ -1,1 +1,1 @@
-worker: godart
+web: godart
